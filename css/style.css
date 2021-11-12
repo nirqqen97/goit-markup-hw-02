@@ -156,3 +156,16 @@ color:var(--accent-color)
     background-color: var(--header-background-color)
 
 }
+.portfolio-hero-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--main-text-color);
+    letter-spacing: 0.06em;
+}
+.portfolio-hero-text{
+    font-size: 18px;
+    line-height: 2;
+    color: var(--second-text-color);
+    letter-spacing: 0.06em;
+}

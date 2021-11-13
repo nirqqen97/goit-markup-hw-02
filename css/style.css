@@ -5,6 +5,28 @@
     --header-background-color:#2F303A;
     --first-button-color:#FFFFFF;
     --accent-color:#2196F3;
+    --footer-text-color:#FFFFFF99;
+
+}
+.button{
+    cursor: pointer;
+}
+.portfolio-hero-btn:focus{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--first-button-color);
+    background-color: var(--accent-color);
+    
+}    
+.portfolio-hero-btn:hover{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--first-button-color);
+    background-color: var(--accent-color);
 }
 .header-logo link{
     color: var(--accent-color);
@@ -12,12 +34,10 @@
 .header-studio{
 color:var(--main-text-color)
 }
-a { 
-    cursor : pointer;
- }
- 
+
 body{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif; 
+    background-color: white; 
 
 }
 
@@ -44,6 +64,9 @@ body{
 .header-link:hover {
 color:var(--accent-color)
 }
+.header-link:focus{
+    color:var(--accent-color)
+    }
 
 .link{
     text-decoration: none;
@@ -69,6 +92,7 @@ color:var(--accent-color)
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: var(--first-button-color);
 }
 .hero-btn{
     font-family: inherit;
@@ -77,6 +101,7 @@ color:var(--accent-color)
     line-height: 1.87;
     color: var(--first-button-color);
     background-color: var(--accent-color);
+    text-align:center;
 }
 /*---------------------------------about-------------------------*/
 .about-title{
@@ -94,8 +119,8 @@ color:var(--accent-color)
     letter-spacing: 0.03em;
     color:var(--second-text-color)
 }
-/*---------------------------------about2-------------------------*/
-.about2-title{
+/*---------------------------------about-second-------------------------*/
+.about-second-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.18;
@@ -143,8 +168,13 @@ color:var(--accent-color)
 
 }
 .contacts-link:hover{
-    color:var(--accent-color)
+    color:var(--footer-text-color)
 }
+.contacts-link:focus{
+    color:var(--footer-text-color)
+
+}
+
 .contacts-link1{
     font-weight: normal;
     font-size: 14px;
@@ -152,10 +182,7 @@ color:var(--accent-color)
     letter-spacing: 0.03em;
     color:var(--first-button-color)
 }
-.contacs-adress{
-    background-color: var(--header-background-color)
 
-}
 .portfolio-hero-title{
     font-weight: bold;
     font-size: 18px;
@@ -168,4 +195,19 @@ color:var(--accent-color)
     line-height: 2;
     color: var(--second-text-color);
     letter-spacing: 0.06em;
+}
+footer{
+    background-color: var(--header-background-color);
+}
+.portfolio-hero-btn{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;    
+}
+.current{
+    color: var(--accent-color);
 }

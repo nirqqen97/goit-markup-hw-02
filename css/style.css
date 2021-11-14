@@ -6,6 +6,7 @@
     --first-button-color:#FFFFFF;
     --accent-color:#2196F3;
     --footer-text-color:#FFFFFF99;
+    --team-background-color:#F5F4FA;
 
 }
 .button{
@@ -237,4 +238,7 @@ address {
     color: var(--first-button-color);
     background-color: var(--accent-color);
 
+}
+.team{
+    color: var(--team-background-color)
 }

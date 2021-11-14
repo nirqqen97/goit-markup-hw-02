@@ -34,7 +34,9 @@
 .header-studio{
 color:var(--main-text-color)
 }
-
+.header-studio-footer{
+    color: var(--first-button-color);
+}
 body{
     font-family: 'Roboto', sans-serif; 
     background-color: white; 
@@ -58,8 +60,15 @@ body{
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color:var(--header-text-color)
+    color:var(--second-text-color)
 
+}
+.header-contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color:var(--second-text-color)
 }
 .header-link:hover {
 color:var(--accent-color)
@@ -98,10 +107,14 @@ color:var(--accent-color)
     font-family: inherit;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1.87;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     color: var(--first-button-color);
     background-color: var(--accent-color);
-    text-align:center;
 }
 /*---------------------------------about-------------------------*/
 .about-title{
@@ -200,7 +213,7 @@ footer{
     background-color: var(--header-background-color);
 }
 .portfolio-hero-btn{
-    font-family: Roboto;
+    font-family: inherit;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -210,4 +223,18 @@ letter-spacing: 0.03em;
 }
 .current{
     color: var(--accent-color);
+}
+.focus:focus{
+    color: var(--accent-color);
+}
+.hover:hover{
+    color: var(--accent-color);
+}
+address {
+    font-style: normal;
+}
+.current-btn{ 
+    color: var(--first-button-color);
+    background-color: var(--accent-color);
+
 }
